@@ -16,4 +16,6 @@ class IndexController extends Controller
         return view('post.index', compact('posts', 'randomPosts', 'likedPosts'));
     }
     // this is comment for test
+    //new comment
+    
 }
