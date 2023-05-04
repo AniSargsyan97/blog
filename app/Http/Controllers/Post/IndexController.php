@@ -15,4 +15,5 @@ class IndexController extends Controller
         $likedPosts = Post::withCount('likedUsers')->orderBy('liked_users_count', 'DESC')->get()->take(4);
         return view('post.index', compact('posts', 'randomPosts', 'likedPosts'));
     }
+    // this is comment for test
 }
